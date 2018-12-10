@@ -62,7 +62,7 @@ class Robot:
             writer = csv.writer(csv_w)
             res_exist = False
             for line in new_csv[1:]:
-                # if user's favor is in list, increase number of votes 
+                # if user's favor is in list, increase number of votes
                 if line[0] == res_data:
                     line[1] = int(line[1])
                     line[1] += 1
