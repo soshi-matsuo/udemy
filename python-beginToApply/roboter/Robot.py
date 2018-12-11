@@ -47,7 +47,7 @@ class Robot:
     def ask_restaurant(self, human_name):
         # ask user's favor
         liked_res = input(colored(
-            '{}, what restaurant do you like?\n'.format(human_name), 'green'))
+            'By the way, {}, what restaurant do you like?\n'.format(human_name), 'green'))
         res_data = liked_res.lower().capitalize()
 
         # convert csv into list to edit
