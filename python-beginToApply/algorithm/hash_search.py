@@ -19,8 +19,6 @@ def search(stored_box, num, leng=150):
                 return '配列の中に目的の数字はありません'
         if stored_box[hashed] == num:
             return '配列の{}個目の要素'.format(hashed)
-    else:
-        return '配列の中に目的の数字はありません'
 
 def main():
     numbers = 100
